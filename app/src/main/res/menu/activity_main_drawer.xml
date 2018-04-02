@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/groupe1">
+        <item
+            android:id="@+id/book_spot"
+            android:icon="@drawable/book_128"
+            android:title="Book a Spot" />
+        <item
+            android:id="@+id/list_spot"
+            android:icon="@drawable/house"
+            android:title="List a Spot" />
+        <item
+            android:id="@+id/Past_Bookings"
+            android:icon="@drawable/pastbooking_128"
+            android:title="Past Bookings" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/groupe2">
+        <item
+            android:id="@+id/payments"
+            android:icon="@drawable/payment_128"
+            android:title="Payments" />
+        <item
+            android:id="@+id/promos"
+            android:icon="@drawable/promo_128"
+            android:title="Promos" />
+        <item
+            android:id="@+id/wallet"
+            android:icon="@drawable/wallet_128"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/my_profile"
+            android:icon="@drawable/star_128"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/ratings"
+            android:icon="@drawable/rating_128"
+            android:title="Ratings" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/groupe3">
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help_128"
+            android:title="Help" />
+        <item
+            android:id="@+id/legal"
+            android:icon="@drawable/legal_128"
+            android:title="Legal" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout_128"
+            android:title="Logout" />
+
+    </group>
+
+</menu>
